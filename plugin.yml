@@ -1,0 +1,31 @@
+name: iSoftCrates
+main: iSoftMC\iSoftCrates\Main
+version: 0.1
+api: [3.0.0,2.1.0]
+author: Az928
+commands:
+ ordinary:
+  description: Opens ordinary crate!
+  permission: isoft.open1
+ rare:
+  description: Opens rare crate!
+  permission: isoft.open2
+ legendary:
+  description: Opens legendary crate!
+  permission: isoft.open3
+ mythic:
+  description: Opens mythic crate!
+  permission: isoft.open4
+permissions:
+ isoft.open1:
+  default: true
+  description: Permission for opeing ordinary crate!
+ isoft.open2:
+  default: true
+  description: Permission for opening rare crate!
+ isoft.open3:
+  default: true
+  description: Permission for opeing legendary crate!
+ isoft.open4:
+  default: true
+  description: Permission for opening mythic crate!
